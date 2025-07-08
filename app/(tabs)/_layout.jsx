@@ -20,6 +20,10 @@ export default function TabsLayout() {
                 title: "Configurações",
                 tabBarIcon: ({ color }) => <FontAwesome name="cog" size={24} color={color} />
             }}/>
+            <Tabs.Screen name="user" options={{
+                title: "Meu perfil",
+                tabBarIcon: ({ color }) => <FontAwesome name="user" size={24} color={color} />
+            }}/>
             <Tabs.Screen name="products" options={{
                 title: "Produtos",
                 tabBarIcon: ({ color }) => <FontAwesome name="shopping-bag" size={24} color={color} />
